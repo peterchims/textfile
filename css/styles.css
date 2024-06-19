@@ -94,6 +94,41 @@ background-repeat: no-repeat;
     font-weight:500;
     cursor: pointer;
 }
+.test-file .btn button.donate{
+    padding:20px;
+    background-color:red;
+    width:15%;
+    border:1px solid;
+    font-size:1.2em;
+    font-weight:bold;
+    margin-right:50px;
+    margin-top:10px;
+    color:#fff;
+}
+.test-file .btn button.donate:hover{
+    background:transparent;
+    transition: ease 1s;
+    border:1px solid #fff;
+    color:#fff;
+}
+.test-file .btn button.support:hover{
+    background:red;
+    transition: ease 1s;
+    color:#fff;
+    border:0px;
+}
+.test-file .btn button.support{
+    padding:20px;
+    background-color:transparent;
+    border:1px solid #fff;
+    color:#fff;
+    width:15%;
+    border:1px solid;
+    font-size:1.2em;
+    font-weight:bold;
+    /* margin-right:150px; */
+    margin-top:10px;
+}
 
 /* community styling */
 .community{
